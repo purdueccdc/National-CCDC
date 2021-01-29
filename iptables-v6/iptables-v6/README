@@ -1,0 +1,24 @@
+Intensity Levels Explained:
+	Light
+		Drops all IPv6
+		Accepts only required ports inbound/outbound
+		Accepts any ICMP inbound/outbound
+	Medium
+		Drops all IPv6
+		Accepts only required ports inbound/outbound
+		Accepts any ICMP inbound/outbound
+		Supports stateful packet inspection
+		To be used for network scans
+	High
+		Drops all IPv6
+		Accepts only required ports inbound/outbound
+		Accepts ICMP ping inbound/outbound
+		Supports stateful packet inspection
+		Drops many network attacks
+	Extreme
+		Drops all IPv6
+		Accepts only required ports inbound/outbound
+		Accepts ICMP ping inbound/outbound
+		Supports stateful packet inspection
+		Drops many network attacks
+		Restricts all traffic by IPv4 address
